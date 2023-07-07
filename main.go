@@ -3,7 +3,15 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("add new first line")
 
-	//
+	if true {
+		if true {
+			if false {
+
+			} else {
+				fmt.Println("add new first line")
+
+			}
+		}
+	}
 }
