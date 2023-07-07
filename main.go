@@ -4,14 +4,17 @@ import "fmt"
 
 func main() {
 
-	if true {
-		if true {
-			if false {
+	val := []int{1, 10, 3, 5, 7, 10}
+	SumOdd(val)
 
-			} else {
-				fmt.Println("add new first line 2")
+}
 
-			}
+func SumOdd(val []int) {
+	total := 0
+	for _, v := range val {
+		if v%2 == 1 {
+			total += v
 		}
 	}
+	fmt.Println(total)
 }
