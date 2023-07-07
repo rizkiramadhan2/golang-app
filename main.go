@@ -9,7 +9,7 @@ func main() {
 			if false {
 
 			} else {
-				fmt.Println("add new first line 1")
+				fmt.Println("add new first line")
 
 			}
 		}
